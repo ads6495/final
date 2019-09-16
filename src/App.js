@@ -1,9 +1,15 @@
 import React, { Component } from 'react'
-import HelloWorld from './components/HelloWorld'
+import Navbar from './components/admin/Navbar'
+import AdminBody from './components/admin/AdminBody'
 
 class App extends Component {
   render() {
-    return <HelloWorld />
+    return (
+      <section>
+        <Navbar />
+        <AdminBody />
+      </section>
+    )
   }
 }
 
